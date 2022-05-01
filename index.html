@@ -8,10 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap"
-      rel="stylesheet"/>
-      <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
       <!-- INICIO NAVBAR -->
@@ -37,7 +35,7 @@
                     <a class="nav-link" href="#about">Acerca de mi</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#contact">Contacto</a>
                   </li>
                 </ul>
                 <div class="social-links ms-auto">
@@ -55,12 +53,12 @@
 
         <!-- INICIO HERO -->
         <section id="hero">
-            <div class="container">
+            <div class="container mb-5 pb-2">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h1 class="display-1" data-aos="fade-up">DAVID AZAHARVICH</h1>
-                        <p data-aos="fade-up" data-aos-delay="300">Hola! mi nombre es David Azaharvich y soy un desarrollador Front-End en Chile. Me dedico a desarrollar proyectos para pequeñas y medianas empresas.</p>
-                        <a href="#" class="btn btn-outline-light" data-aos="fade-up" data-aos-delay="500">Conoce mi trabajo</a>
+                        <h1 class="display-1">DAVID AZAHARVICH</h1>
+                        <p>Hola! mi nombre es David Azaharvich y soy un desarrollador Front-End en Chile. Me dedico a desarrollar proyectos para pequeñas y medianas empresas.</p>
+                        <a href="#" class="btn btn-outline-light">CONOCE MI TRABAJO</a>
                     </div>
                     <div class="col-lg-6">
                         <img src="assets/img/foto-perfil.jpg" alt="Foto-perfil">
@@ -68,7 +66,106 @@
                 </div>
             </div>
         </section>
+        <!-- FIN HERO -->
+      
 
+        <!-- INICIO PORTAFOLIO -->
+
+        <section id="work" class="bg-dark py-5">
+          <div class="container">
+              <div class="row align-items-center justify-content-between">
+                  <div class="col-lg-6">
+                      <div class="intro">
+                          <h1 class="display-2 ">portafolio</h1>
+                          <p class="mx-auto">Esto es algo de mi trabajo y demuestra también mi forma de ver el mundo bajo los ojos del desarrollo web</p>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- INICIO GALERIA -->
+              <div class="row">
+                <div class="col-lg-6 col-sm-6">
+                <div class="proyects">
+                  <div class="gallery">
+                    <a href="https://github.com/Dazaharvich/landing-page-d2-" target="_blank"><img class="gallery-images" src="assets/img/landing-page.PNG" alt="landing-page"></a>
+                  </div>
+                  <h3 class="img-title ms-2 mt-4">Landing page</h3>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <div class="proyects">
+                  <div class="gallery">
+                    <a href="https://github.com/Dazaharvich/iguana-page" target="_blank"><img class="gallery-images" src="assets/img/iguana-page.PNG" alt="iguana-page"></a>
+                  </div>
+                  <h3 class="img-title ms-2 mt-4">Iguana Page</h3>
+                </div>
+              </div>
+             </div>
+             <div class="row pt-5">
+              <div class="col-lg-6 col-sm-6">
+              <div class="proyects">
+                <div class="gallery">
+                  <a href="https://github.com/Dazaharvich/cupon" target="_blank"><img class="gallery-images" src="assets/img/cupon.PNG" alt="cupon-page"></a>
+                </div>
+                <h3 class="img-title ms-2 mt-4">Cupón</h3>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+              <div class="proyects">
+                <div class="gallery">
+                  <a href="https://github.com/Dazaharvich/fdsw-github-copy" target="_blank"><img class="gallery-images" src="assets/img/portafolio-fork.PNG" alt="portafolio-forkeado"></a>
+                </div>
+                <h3 class="img-title ms-2 mt-4">Fork de Portafolio</h3>
+              </div>
+            </div>
+           </div> 
+          </div>
+        </section>
+<!-- FIN DE PORTAFOLIO -->
+
+<!-- INICIO DE FORMULARIO -->
+
+<section id="contact" class="container my-5">
+
+  <h2 class="display-4 text-center my-4">contactame</h2>
+
+  <p class=" fs-4 text-center my-4 d-none d-md-block">Si te ha gustado mi trabajo y tienes un proyecto en mente, contáctame y conversemos</p>
+
+  <form>
+
+
+      <div class="form-group mb-4">
+          <label class="mb-2">Nombre</label>
+          <input class="form-control" placeholder="Nombre">
+      </div>
+
+      <div class="form-group mb-4">
+          <label class="mb-2">Correo electrónico</label>
+          <input class="form-control" placeholder="Correo electrónico" />
+      </div>
+
+
+      <div class="form-group">
+          <label class="mb-2">Mensaje</label>
+          <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+      </div>
+
+      <div class="my-3 text-end text-center">
+          <button class="btn btn-outline-light">Enviar</button>
+      </div>
+
+
+
+  </form>
+
+</section>
+<!-- FIN FORMULARIO -->
+
+<!-- FOOTER -->
+
+<footer class="bg-dark text-center text-light p-4">
+  <p class="mb-0">David Azaharvich 2022 <i class="fa-solid fa-copyright"></i> Todos los derechos reservados.</p>
+</footer>
 
 
 
